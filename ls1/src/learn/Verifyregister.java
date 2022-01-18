@@ -12,7 +12,7 @@ public class Verifyregister {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\automation software\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		WebDriver  driver=new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/Register.html");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@name='radiooptions' and @value='FeMale']")).click();
