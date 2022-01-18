@@ -22,6 +22,7 @@ public class Verifyregister {
 		System.out.println(monthcount.size());
 		for(int i=0;i<monthcount.size();i++)
 		{
+			
 			System.out.println(monthcount.get(i).getText());
 		}
 		mth.selectByIndex(10);
